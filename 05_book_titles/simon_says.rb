@@ -34,7 +34,7 @@ end
 
 def titleize(s)
   #an incomplete list of words not capitalized in titles
-  preps = ["a", "an", "and", "by", "at", "down", "by", "for", "from", "like", "the", "over", "under", "with", "without"]
+  preps = ["a", "an", "and", "by", "at", "down", "by", "for", "from", "like", "the", "over", "under", "with", "without", "in", "of"]
   result = first_word(s).capitalize + ' '
 
   words = s.split
